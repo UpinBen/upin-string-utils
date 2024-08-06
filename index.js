@@ -8,3 +8,9 @@ export const camelCaseToKebabCase = str =>
 // Truncates a string to a specified length
 export const truncate = (str, length) =>
   str.length > length ? str.substring(0, length) + '...' : str;
+
+// gets initials based on first and last na,e
+export const getInitials = (firstName, lastName) => {
+  if (!firstName || !lastName) return "";
+  return `${firstName.charAt(0)}${lastName.charAt(0)}`.toUpperCase();
+};
