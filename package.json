@@ -1,0 +1,26 @@
+{
+  "name": "upin-string-utils",
+  "version": "1.0.0",
+  "description": "A collection of utility functions for string operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/upin-string-utils.git"
+  },
+  "keywords": [
+    "string",
+    "utilities",
+    "capitalize",
+    "kebab-case",
+    "truncate"
+  ],
+  "author": "Ben Havis",
+  "license": "Upin",
+  "bugs": {
+    "url": "https://github.com/upinben/upin-string-utils/issues"
+  },
+  "homepage": "https://github.com/upinben/upin-string-utils#readme"
+}
